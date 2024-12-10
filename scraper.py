@@ -12,6 +12,8 @@ from bs4 import BeautifulSoup
 #To run the program do: python scraper.py <Subreddit Name> <# of top posts>
 #example: python scraper.py Programming 100
 
+#make sure you install PRAW and all the other libraries for it to work
+
 #code needed to make PRAW (Python Reddit API Wrapper) work
 reddit = praw.Reddit(
     client_id = "aAXuKXHkpglxK4rSy5Sjqw",
