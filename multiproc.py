@@ -33,7 +33,7 @@ def get_titles(url):
         return 'ERROR: Could Not Retrieve Title'
         
 def get_links(text):
-    print("FOUND LINK:", re.findall(r'\(https?://\S+\)', text))
+    #print("FOUND LINK:", re.findall(r'\(https?://\S+\)', text))
     return re.findall(r'\(\(https?://\S+\)\)', text)
 
 def parsePosts(subreddit_top_posts):
@@ -77,7 +77,19 @@ def parsePosts(subreddit_top_posts):
             })
         postJSON['Comments'] = crawled_comments
         crawled_posts.append(postJSON)
+        print("Parsed Post")
     return crawled_posts
+
+def partitionPosts(posts, numProcesses):
+    partition_size = len(posts)//numProcesses
+    remainder = len(posts) % numProcesses
+
+    partitions = [posts[i * partition_size:(i+1) * partition_size] for i in range(numProcesses)]
+
+    if(remainder > 0):
+        partitions[-1].extend(posts[numProcesses*partition_size:])
+    
+    return partitions
 
 if __name__ == "__main__":
 
@@ -106,7 +118,12 @@ if __name__ == "__main__":
     subreddit_top_posts = subreddit.top(limit=args.topLim[0]) 
     posts = list(subreddit_top_posts)
 
-    crawledPosts = parsePosts(posts)
+    partitions = partitionPosts(posts, numProcesses)
+
+    with Pool(numProcesses) as pool:
+        parallelResults = pool.map(parsePosts, partitions)
+
+    crawledPosts = [item for sublist in parallelResults for item in sublist]
     
     #dump all data into a json file called '<subreddit>_posts.json'
     output_file = args.subreddit[0] + '_posts.json'
