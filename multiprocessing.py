@@ -9,63 +9,36 @@ import re
 import requests
 from bs4 import BeautifulSoup
 
+#To run the program do: python scraper.py <Subreddit Name> <# of top posts>
+#example: python scraper.py Programming 100
 
-if __name__ == "__main__":
+#make sure you install PRAW and all the other libraries for it to work
 
-    #To run the program do: python scraper.py <Subreddit Name> <# of top posts>
-    #example: python scraper.py Programming 100
+#function to convert post.created_utc return to YYYY-MM-DD HOUR:MINUTE:SECOND format
+def get_date(post):
+    time = post.created_utc
+    return datetime.datetime.fromtimestamp(time)
 
-    #make sure you install PRAW and all the other libraries for it to work
-
-    #code needed to make PRAW (Python Reddit API Wrapper) work
-    reddit = praw.Reddit(
-        client_id = "aAXuKXHkpglxK4rSy5Sjqw",
-        client_secret = "rozvEYfPuTGdaGGySRVtnOgKCR8dxA",
-        user_agent = "search engine by u/_HyP3_"
-    )
-
-    #function to convert post.created_utc return to YYYY-MM-DD HOUR:MINUTE:SECOND format
-    def get_date(post):
-        time = post.created_utc
-        return datetime.datetime.fromtimestamp(time)
-
-    def get_titles(url):
-        try:
-            page = requests.get(url)
-            if page.status_code == 200:
-                soup  = BeautifulSoup(page.text, 'html.parser')
-                if soup.title:
-                    return soup.title.text
-                else:
-                    return 'No Title'
-        except request.RequestException:
-            return 'ERROR: Could Not Retrieve Title'
+def get_titles(url):
+    try:
+        page = requests.get(url)
+        if page.status_code == 200:
+            soup  = BeautifulSoup(page.text, 'html.parser')
+            if soup.title:
+                return soup.title.text
+            else:
+                return 'No Title'
+    except request.RequestException:
+        return 'ERROR: Could Not Retrieve Title'
         
-    def get_links(text):
-        print("FOUND LINK:", re.findall(r'\(https?://\S+\)', text))
-        return re.findall(r'\(\(https?://\S+\)\)', text)
+def get_links(text):
+    print("FOUND LINK:", re.findall(r'\(https?://\S+\)', text))
+    return re.findall(r'\(\(https?://\S+\)\)', text)
 
-    #code that takes in arguments from execution
-    parser = argparse.ArgumentParser(
-            description='Crawls subreddit and pulls top posts.')
-    parser.add_argument('subreddit',metavar='<sub Name>', type=str, nargs=1, help='The name of the subreddit')
-    parser.add_argument('topLim',metavar='t', type=int, nargs=1, help='The limit of top posts')
-    parser.add_argument('numP',metavar='p', type=int, nargs=1, help='Number of processes')
-    args = parser.parse_args()
-
-    #get number of processes from argument
-    numProcesses = args.numP[0]
-
-    #using the subreddit argument to pass it to PRAW 
-    subreddit = reddit.subreddit(args.subreddit[0])
-
-    #Praw gets the number of top posts in our chosen subreddit based of the argument from execution
-    subreddit_top_posts = subreddit.top(limit=args.topLim[0]) 
-
+def parsePosts(subreddit_top_posts):
     #dictionary to store post data for now
     crawled_posts = []
-
-    #The main for loop that collects all the data from all of the top posts and stores it into crawled_posts
+     #The main for loop that collects all the data from all of the top posts and stores it into crawled_posts
     for post in subreddit_top_posts:
         json_string = '{"Title":"title", "ID":"ID", "Author":"author", "Date":"created", "URL":"URL", "Score":"score", "Body":"selfText", "HTML Title":"html title", "Comments":"comments"}'
         postJSON = json.loads(json_string)
@@ -103,8 +76,37 @@ if __name__ == "__main__":
             })
         postJSON['Comments'] = crawled_comments
         crawled_posts.append(postJSON)
+    return crawled_posts
+
+if __name__ == "__main__":
+
+    #code needed to make PRAW (Python Reddit API Wrapper) work
+    reddit = praw.Reddit(
+        client_id = "aAXuKXHkpglxK4rSy5Sjqw",
+        client_secret = "rozvEYfPuTGdaGGySRVtnOgKCR8dxA",
+        user_agent = "search engine by u/_HyP3_"
+    )
+
+    #code that takes in arguments from execution
+    parser = argparse.ArgumentParser(
+            description='Crawls subreddit and pulls top posts.')
+    parser.add_argument('subreddit',metavar='<sub Name>', type=str, nargs=1, help='The name of the subreddit')
+    parser.add_argument('topLim',metavar='t', type=int, nargs=1, help='The limit of top posts')
+    parser.add_argument('numP',metavar='p', type=int, nargs=1, help='Number of processes')
+    args = parser.parse_args()
+
+    #get number of processes from argument
+    numProcesses = args.numP[0]
+
+    #using the subreddit argument to pass it to PRAW 
+    subreddit = reddit.subreddit(args.subreddit[0])
+
+    #Praw gets the number of top posts in our chosen subreddit based of the argument from execution
+    subreddit_top_posts = subreddit.top(limit=args.topLim[0]) 
+    
+    crawledPosts = parsePosts(subreddit_top_posts)
 
     #dump all data into a json file called '<subreddit>_posts.json'
     output_file = args.subreddit[0] + '_posts.json'
     with open(output_file, 'w', encoding='utf-8') as f:
-        json.dump(crawled_posts, f, indent=4, ensure_ascii=False)
+        json.dump(crawledPosts, f, indent=4, ensure_ascii=False)
