@@ -1,0 +1,922 @@
+[
+    {
+        "Title": "Apollo dev posts backend code to Git to disprove Reddit’s claims of scrapping and inefficiency",
+        "ID": "144sn8r",
+        "Author": "GhostalMedia",
+        "Date": "2023-06-08 19:24:09",
+        "URL": "https://github.com/christianselig/apollo-backend",
+        "Score": 44996,
+        "Body": "",
+        "HTML Title": {},
+        "Comments": [
+            {
+                "Comment Body": "I’m sure the AMA tomorrow with /u/spez will be a shitshow.\n\nEdit: [showtime](https://www.reddit.com/r/reddit/comments/145bram/addressing_the_community_about_changes_to_our_api/?utm_source=share&utm_medium=ios_app&utm_name=iossmf)",
+                "Comment Author": "None"
+            },
+            {
+                "Comment Body": "spez is a mod on this subreddit lol",
+                "Comment Author": "DoubleF3lix"
+            },
+            {
+                "Comment Body": "I was honestly both creeped out and disappointed at Reddit admins for trying to: 1) falsely insinuate Apollo was abusing the API 2) falsely claim Apollo was extorting them and 3) trying to go for \"Apollo is programmed bad\" as a desperation attempt to appeal to nerds to turn people to their side.",
+                "Comment Author": "FyreWulff"
+            },
+            {
+                "Comment Body": "Inefficiency lmao, have they seen their own app? Feels like an awkward piece of shit compared to Apollo. Also they could have just discussed it if they really cared about API efficiency, but we all know they just want to monetize to IPO, as soon as possible and they don't care if they have to burn the site down to do it. AMA's are already worthless, how did that monetization go? Because that's what this shitshow is going to look like",
+                "Comment Author": "ForShotgun"
+            },
+            {
+                "Comment Body": "Don't worry /u/spez It's going to be really easy to afford the bills when everybody stops fucking using Reddit because you guys are turning into a bunch of money hungry fucks that forget where you came from.\n\n✌️✌️✌️",
+                "Comment Author": "Xanza"
+            },
+            {
+                "Comment Body": "Shoutout to the [git commit message](https://github.com/christianselig/apollo-backend/commit/d6b967188c9781bbaaa451e62ef1cfa6126a0f1b) of \"things\".",
+                "Comment Author": "0x1f606"
+            },
+            {
+                "Comment Body": "They know what they're doing, 100% they want to kill off 3rd party apps to get add revenue and user data.\n\nThe reason they won't reverse the decision is this is the intended outcome and honestly they don't care if a couple 100k people leave reddit over it.",
+                "Comment Author": "redcoatwright"
+            },
+            {
+                "Comment Body": "Instead of making up technical bullshit, what Reddit should do is structure their API access deals as a profit sharing agreement where third party apps like Apollo pay Reddit a percentage of their ad revenue after some threshold.\n\nI think reddit has the right to monetize the site however they want, which they can't do with third party apps. They want 100% of that revenue but what they don't realize is that a large percentage of users will quit before they switch off their preferred app. It would be better to capture 30% of those users than to jeopardize the entire site trying to cut out the developers who acquired many of these users in the first place.",
+                "Comment Author": "dacjames"
+            },
+            {
+                "Comment Body": "While they wax poetic bullshit about how \"inefficient\" Apollo is, let's just admire how absolutely abysmal their official app is. It's slow, it doesn't work right half the time, and it's a terrible user experience. Why don't they fix that? Oh right, it's because they're so focused on putting a shitton of ads and trackers in it to sell user data and make maximum profit. \"But that's business, not inefficiency!\"",
+                "Comment Author": "EshuMarneedi"
+            },
+            {
+                "Comment Body": "I'm calling it now:\n\nu/spez will be the sacrificial lamb.\n\nThey will walk back a bit of the API changes to seem open-minded, enough to confuse the matter and dilute the rioting.\n\nNothing will actually get better.",
+                "Comment Author": "WolfgangSho"
+            },
+            {
+                "Comment Body": "Hey u/spez, fuck you, you piece of shit",
+                "Comment Author": "Binormus__"
+            },
+            {
+                "Comment Body": "Well after 12 years on Reddit. I’m out after the 30th June. It’s not even the same site anymore so it’s a good time to go",
+                "Comment Author": "PirateCraig"
+            },
+            {
+                "Comment Body": "Hey u/Spez, can we get Ellen Pao back plz? She was shit as a CEO, but she was better than you.",
+                "Comment Author": "Downvotes_are_Grreat"
+            },
+            {
+                "Comment Body": "If reddit gave a single fuck about their user experience they would've thrown a bag at the *one* guy who's proven time and time again he's on the front lines in listening to user feedback and actually delivering what people want. \n\nThey're too shallow to admit he's better and to get him on side, so instead have tried burning him to the ground. Fuck you u/spez.",
+                "Comment Author": "TheGruesomeTwosome"
+            },
+            {
+                "Comment Body": "And now Reddit will *borrow* this code without credit to finally make their app work.",
+                "Comment Author": "shadowzzz"
+            },
+            {
+                "Comment Body": "lol fuck /u/spez so much. Lies about apollo dev blackmailing/extorting whatever, then makes this claim about shit code when the official reddit mobile app and the desktop frontend (the not \"old\" one) runs like absolute shit. What an absolute fucking cunt.",
+                "Comment Author": "None"
+            },
+            {
+                "Comment Body": "Suck my cock /u/spez",
+                "Comment Author": "TherapistMD"
+            },
+            {
+                "Comment Body": "Well the number 1 post on All about spez being a little pigboy just got deleted",
+                "Comment Author": "-MinorWomensWhiplash"
+            },
+            {
+                "Comment Body": "This is just gonna make me use [Lemmy](https://lemmy.one/post/1600?scrollToComments=true) instead.",
+                "Comment Author": "hyperchromatica"
+            },
+            {
+                "Comment Body": "Fuck you /u/spez",
+                "Comment Author": "YuriBalls"
+            }
+        ]
+    },
+    {
+        "Title": "There’s a reason that programmers always want to throw away old code and start over: they think the old code is a mess. They are probably wrong. The reason that they think the old code is a mess is because of a cardinal, fundamental law of programming: It’s harder to read code than to write it.",
+        "ID": "8f2lzu",
+        "Author": "the_phet",
+        "Date": "2018-04-26 06:24:12",
+        "URL": "https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/",
+        "Score": 26759,
+        "Body": "",
+        "HTML Title": {},
+        "Comments": [
+            {
+                "Comment Body": "I think most programmers work in a similar way: imagine a problem, then decompose the problem into its constituent parts and attack those simpler, isolated problems.\n\nThe problem with a large codebase is that no one, not even the person that wrote all of it can fit the solution in their working memory. The tendency of programmers (who generally underestimate complexity) is to say: wait a minute, this problem doesn't require 10 million LOC, I could easily solve this problem in 250 lines of elegant Haskell.\n\nThere are situations where the legacy codebase is completely unsalvagable, but I think more often than not it's throwing the baby out with the bath water, except the baby is an engine that, while flawed, is generating business value.",
+                "Comment Author": "lukeautry"
+            },
+            {
+                "Comment Body": "I think most code, no matter how well designed before hand, is designed mostly on the fly. You always run into things you didn't think of and adapt. This leads to cludges and breaking the design. Once everything is done and it works, I love nothing better than tearing it all down and re-writing it with all lessons learned. \n",
+                "Comment Author": "DrunkMc"
+            },
+            {
+                "Comment Body": "[deleted]",
+                "Comment Author": "None"
+            },
+            {
+                "Comment Body": "It depends.  I've been on many projects where the initial project requirements were \"Oh, it's easy, you just need to do A->B->C->D\".  \n\nThen you hit testing, or worse production, and then all kinds of wackadoo requirements materialize.  \"Well yeah, Most of the time you do A->B, but in these 3 situations you go to C, then back to B, then to D for 2 of them and C for the 3rd one.\"  \"Oh yeah, this other situation requires you to go to E, then spin a D20 and decide to go to B or C or end it in F\".  <time passes with more of this going on> Oh yeah, we don't do the B->Q->M on 3rd Tuesdays anymore, now it is B->R->E on 2nd Thursdays...    \n\nLast year I finally was able to fix one of those that had been going on for 10 years because I refused to directly translate the logic between languages during an upgrade.",
+                "Comment Author": "thegreatgazoo"
+            },
+            {
+                "Comment Body": "As a programmer, I have about a 0% urge to “throw away” old code. However, I have a 100% urge to rewrite old code one function at a time.",
+                "Comment Author": "frog2112"
+            },
+            {
+                "Comment Body": "While he makes some valid points, sometimes the codebase is just bad.  \nA tangled mess of rushed spaghetti code full of \"TODO\" and \"FIXME\",\nand lots of temporary hacks.  \nAt that point starting from scratch can be the right decision, sometimes.  ",
+                "Comment Author": "Bl00dsoul"
+            },
+            {
+                "Comment Body": "I feel like Netscape and Borland are very different from the software most of us are working today. Netscape is a desktop application with a massive code base. I'm currently working on web services and front end apps on the order of 10k LOC. I feel like rewriting Netscape is a much bigger effort (and more likely to go wrong) than rewriting these front end apps and web services.\n\nAlso, FYI this article is almost 20 years old",
+                "Comment Author": "kcdragon"
+            },
+            {
+                "Comment Body": "Any mature codebase will be full of non\\-obvious code that is there to support what I like to refer to as *invisible requirements*. \n\nInvisible requirements are requirements that do not appear in any design doc or user documentation, but the existing codebase has been written to support them. They are often the result of architectural or design decisions made during the original development; modifications made to workaround bugs or performance issues; well\\-known application features being used by customers in unexpected ways. Invisible requirements often fly underneath the automated tests, and nobody knows that they are there except maybe the crotchety old developer sitting in the corner \\(if he or she even still works for the company\\).\n\nAny existing codebase is chock full of invisible requirements. Starting again from scratch means going through the pain of discovering them all over again \\(or finding completely new ones\\). This is not necessarily a bad thing. Sometimes a codebase is so bad that you need to start from scratch. This is usually the case when you can't even make minor code changes without tripping over some invisible requirements.",
+                "Comment Author": "khendron"
+            },
+            {
+                "Comment Body": "As Perlis put it all the way back [in 1982](https://www.gwern.net/docs/cs/1982-perlis.pdf \"Epigrams on Programming\"):\n\n> 7\\. It is easier to write an incorrect program than understand a correct one.",
+                "Comment Author": "gwern"
+            },
+            {
+                "Comment Body": "While he may have a point, he picked the absolute **worst possible example in history** to illustrate it. Netscape 4 was garbage. You couldn't even resize the window without a complete reload. Hundreds of glitches in rendering. Getting absolutely destroyed by IE in every way. They made the best decision of their lives ditching that buggy codebase and beginning what would become Firefox, a revolutionary browser at the time. I'm almost certain trying to build Firefox off Navigator 4 would've been an absolute failure and disaster.",
+                "Comment Author": "Lucent"
+            },
+            {
+                "Comment Body": "As a freelancer who has taken on a lot of \"fixer-upper\" projects, I disagree a thousand percent. Most legacy code is garbage, and should be treated as such.",
+                "Comment Author": "eddieSullivan"
+            },
+            {
+                "Comment Body": "This article has an interesting way of ageing. When I read it the when it was first written I absolutely agreed with Joel, the rewritten version of netscape was absolutely atrocious.\n\nHowever ten years later the decision to rewrite was completely vindicated with the success of firefox. Joels was then dead wrong. Mozilla would not have succeeded in making an IE killer tied to the very brittle code base of the original netscape browser.\n\nToday the field is even more interesting, mozilla has a very interesting rewrite project with Servo. Now I think Joels main point stands, a lot of the instinct programmers have for wanting a rewrite is because it is much harder to read code than to write. As anecdata I do see a correlation with skill and how much maintaining a programmer has done",
+                "Comment Author": "None"
+            },
+            {
+                "Comment Body": "As someone who threw out an entire codebase and spent the last two years rewriting it: no, I was not wrong. There's good (bad?) reasons it was difficult to read before: it *was* a mess. The new codebase is so well organized I can put it down for long stretches and get reacquainted with it easily.\n\nThe key here is whether you're scrapping an *idea* or just your execution of it. In my experience, my original *ideas* are often sound, and when I later ask why I thought of something so ridiculous, it usually turns out there's very good reasons for it. But execution can always be improved, and sometimes that requires low-level rewrites. Everything else is just iteration.",
+                "Comment Author": "LukeLC"
+            },
+            {
+                "Comment Body": "No.\n\nVery often the old code IS shit.\n\nReading may be harder than writing but that does not change whether the code in itself is bad.\n\nI hate rewriting but very objectively the net result of the rewrite is often MUCH, much better than the prior version. This often happens because lateron it is more clear what the code should be doing; and whether it is doing it in a good way.\n\nSometimes a language design can also become better, and old expressions can be re-written in better ways too.",
+                "Comment Author": "shevegen"
+            },
+            {
+                "Comment Body": "I mean, where I work the control software we use has been in continous development since the early 90s. Which makes changes which would take 5 minutes on new code take 4 hours instead. \n\nThere comes a point when the old code should be thrown out. ",
+                "Comment Author": "generally-speaking"
+            },
+            {
+                "Comment Body": "If its shit code of course it will be harder to read than write. \n\nThe idea of the rewrite is to make it easier to comprehend. ",
+                "Comment Author": "colly_wolly"
+            },
+            {
+                "Comment Body": "Back in 2013 I pushed my team to rewrite our codebase in RoR. Originally it was a 600k+ line PHP and JS app.\n\n> You are giving a gift of two or three years to your competitors, and believe me, that is a long time in software years.\n\nIt took us roughly 3 months to get stable.\n\n> It’s important to remember that when you start from scratch there is absolutely no reason to believe that you are going to do a better job than you did the first time.\n\n We learned from our mistakes. I 100% stand by my decision. The increase in productivity was invaluable. The code base is now less than 30k lines. Don't haphazardly rewrite your entire codebase, but don't take this article too seriously either.\n\n\nEdit: I realized I wasn't counting the templates in the RoR app while the templates in the PHP app were all included in my initial count. And in an effort to be fair, a more accurate total for the RoR app actually stands at 41k lines. While going back to investigate I also found that the PHP app had a 25 line license in almost every file, amounting to roughly 86k lines of license.",
+                "Comment Author": "blackholesinthesky"
+            },
+            {
+                "Comment Body": "> It’s harder to read code than to write it.\n\nExcept that's it's not AND it's not the reason most people want to throw out old code.\n\nThere are changes in technology, there's bad design and bad code out there  and constantly applying bandaids instead of biting the bullet and starting fresh is a bad way of looking at things. I'm not saying throw out the code every time but there needs to be a line drawn at some point.\n\nCase in point some of our in house software is in **VB6**; It uses controls that have no 64 bit version ocx because whoever made the controls stopped existing before 64 bit os and I'm not even sure we could get them working registered on windows 7 32 bit for that matter. This means we have to have a windows XP VM in our pool in order to make bug fixes or update features and hope to god nothing happens to corrupt that box and its backups. \n\nIt also means I can't install VB6 into a more recent version of windows to run debug in an environment that matches what one of my users has. Instead when I want to debug something I'm not experiencing on DEV I have to add a ton of Msgboxes that yell various profanities where I THINK the crash might be and see which profanity doesn't pop up. Had an instance where the user changed his region settings to french, and it Borked a CDATE() somewhere because it didn't know how to deal with the french version of the Month.\n\nThe programs talk to a set of access databases and has some of the most convoluted code I've ever seen. I hate that code with a passion, doesn't mean I can't read it, it's just retarded.  \n\nFor instance whoever coded this originally made a Replace function that overwrites the built in Replace function with a significantly worse one that is prone to infinite loops, because why the fuck not?\n\nOr how about the fact that every table is loaded into a \"temporary\" table before being read.\n\nseriously...\n\nEverywhere in the code there is a call to a function that drops tblTemp followed by a select \\* into tblTemp from **whatever table they need at the time** no joins or anything fancy like that and THEN the code does a select \\* from tbltemp where **blahblahblabedyblah**.\n\nThis software runs at over 60 locations across the country, I have to interrupt these people's workdays for 20-30 minutes to run fucking compact and repairs in access at 99.9% of these locations on a weekly basis because they run the risk of hitting the 2 gig database limit.\n\nNot to mention every SQL command you have to write has to take into consideration the fact access is a \"special needs\" child and doesn't like to follow normal conventions. It's the Internet Explorer of databases.\n\nThere is stuff in there that has 100's of lines of buggy code doing things which I could do in 20.\n\nHave I mentioned it's VB6 code yet? Yes I have. Know what that means?  No Try/Catch. Error handling/logging is shoddy at best and non existent in most cases.\n\nHere's the thing, I can read old code fine... the problem is that it reads like the fucking Twilight Series...",
+                "Comment Author": "Daakuryu"
+            },
+            {
+                "Comment Body": "I think it would be very interesting to see how developers' attitudes about this \"rewrite vs. fix it\" issue corresponded with years of experience.\n\nI'd guess that new developers would lean toward \"fix it,\" developers with a few years of experience would turn toward \"rewrite.\" And the grizzled vets would be back at \"fix it.\"\n\nPiecemeal refactoring isn't something most developers enjoy, but in contrast to a total rewrite, it can produce positive, tangible results *very* quickly. It can be fun. It is also, from a business standpoint, safe and cheap.\n\nFast, safe, cheap: choose any three. How often do you get an opportunity like that in engineering?\n\nSomething Spolsky doesn't mention here, but something I've noticed in my own projects: What you recognize as \"cruft\" in old code that someone else wrote often turns out to be, on much closer examination, \"features.\" It's not until you examine it in the kind of detail required for a rewrite that you realize all the subtleties of the way Feature A and Feature B interact with each other. Your rewrite might be slightly cleaner than the original, but it's not going to be the sleek glistening monument to your own genius and discipline you imagined when you started, because the interaction between A and B just turns out to be complicated. Not complicated as a programming exercise, but actually complicated in the real world.",
+                "Comment Author": "wwqlcw"
+            },
+            {
+                "Comment Body": "[deleted]",
+                "Comment Author": "None"
+            }
+        ]
+    },
+    {
+        "Title": "YouTube page load is 5x slower in Firefox and Edge than in Chrome because YouTube's Polymer redesign relies on the deprecated Shadow DOM v0 API only implemented in Chrome.",
+        "ID": "91i0mc",
+        "Author": "malicious_turtle",
+        "Date": "2018-07-24 07:46:57",
+        "URL": "https://twitter.com/cpeterso/status/1021626510296285185",
+        "Score": 23644,
+        "Body": "",
+        "HTML Title": {},
+        "Comments": [
+            {
+                "Comment Body": "Is this an issue with Polymer in general, or just how it was used on YouTube?",
+                "Comment Author": "bj_christianson"
+            },
+            {
+                "Comment Body": "[deleted]",
+                "Comment Author": "None"
+            },
+            {
+                "Comment Body": "Google is going through their own 'embrace, extend, extinguish' phase. Embrace open source, extend existing projects like Webkit with lots of improvements, but ensure their stuff is shit on anything non-Google.\n\nIt's kinda sad how they've changed.\n\nI'm glad we can now rely on the true bastions of open source; Microsoft.",
+                "Comment Author": "jl2352"
+            },
+            {
+                "Comment Body": "[deleted]",
+                "Comment Author": "None"
+            },
+            {
+                "Comment Body": "?disable\\_polymer=true works for getting rid of the new design on Safari, maybe other browsers too\n\nEdit: this doesn't seem to stick across tabs, but there's a cookie you can set instead which is what the addon does: [https://github.com/thisdotvoid/youtube-classic-extension/blob/master/background.js#L65](https://github.com/thisdotvoid/youtube-classic-extension/blob/master/background.js#L65)\n\nI forgot this. There used to be an opt-out button that I suspiciously can't find anymore :)",
+                "Comment Author": "sblue"
+            },
+            {
+                "Comment Body": "Google is evolving in pretty much the same way Microsoft did back in the good old days of the 90s. The basic pitfall of overwhelming success is eventually complacency and stagnation.",
+                "Comment Author": "OuTLi3R28"
+            },
+            {
+                "Comment Body": "I still want to kill whoever made the Material Design theme that reddit and youtube's redesigns use. Looks fucking ugly on desktop. No surprise that it performs like shit too.",
+                "Comment Author": "chugga_fan"
+            },
+            {
+                "Comment Body": "Polymer has just been a disaster since day 1 anyways. Not surprised they didn't bother to test with other browsers, half the time it doesn't even work in Chrome.\n\nhttps://www.youtube.com/watch?v=9u6Bfnq3aZk",
+                "Comment Author": "Lt_Riza_Hawkeye"
+            },
+            {
+                "Comment Body": "r/assholedesign",
+                "Comment Author": "Tony_XD"
+            },
+            {
+                "Comment Body": "Am I the only one with self-destructing cookies having every video tab I open insta-refreshing in Firefox? New URL includes \"&reload=9\" as a parameter.\n\nRegardless let's not be too quick to call this embrace/extend, and see it for what it really is: blind fucking incompetence. It reminds me of the old Outlook.com before Outlook.com got awesome",
+                "Comment Author": "None"
+            },
+            {
+                "Comment Body": "Amazing how 2010s google has become 90s Microsoft.",
+                "Comment Author": "jice"
+            },
+            {
+                "Comment Body": "[deleted]",
+                "Comment Author": "None"
+            },
+            {
+                "Comment Body": "8 trillion dollar fine by the e.u coming up ",
+                "Comment Author": "Lofar788"
+            },
+            {
+                "Comment Body": "I'm calling the EU 🇪🇺 ",
+                "Comment Author": "tempstem5"
+            },
+            {
+                "Comment Body": "Chrome, the IE of XXI century.",
+                "Comment Author": "None"
+            },
+            {
+                "Comment Body": "\"Don't be evil\"",
+                "Comment Author": "None"
+            },
+            {
+                "Comment Body": "Google's the new Microsoft, but what kind of behemoth will Amazon be?",
+                "Comment Author": "darexinfinity"
+            },
+            {
+                "Comment Body": "Which means that they are chasing people away or into using workarounds such as hooktube.com(just replace the 'you' part of youtube with 'hook') and watchkin.com.\n\nGoogle went from 'don't be evil' to 'don't appear evil' in a heartbeat...",
+                "Comment Author": "ThomasMaker"
+            },
+            {
+                "Comment Body": "You either die a hero or live long enough to become IE6",
+                "Comment Author": "KnowEwe"
+            },
+            {
+                "Comment Body": "Now people can understand why it is important to control Google - without control it just keeps on enhancing its evilness, by making competitors slower.\n\nOn purpose.\n\nThere will be many more rulings against Google in the EU due to malpractice and evil abuse of their monopoly.",
+                "Comment Author": "shevegen"
+            }
+        ]
+    },
+    {
+        "Title": "Google wins trial against Oracle as jury finds Android is “fair use”",
+        "ID": "4l77w2",
+        "Author": "hondaaccords",
+        "Date": "2016-05-26 13:06:35",
+        "URL": "http://arstechnica.com/tech-policy/2016/05/google-wins-trial-against-oracle-as-jury-finds-android-is-fair-use/",
+        "Score": 21374,
+        "Body": "",
+        "HTML Title": {},
+        "Comments": [
+            {
+                "Comment Body": "Looks like we all still have careers.",
+                "Comment Author": "dada_"
+            },
+            {
+                "Comment Body": "> Oracle CEO Larry Ellison welcomed Android at first, but later he \"Changed his mind, after he had tried to use Java to build his own smartphone and failed to do it\"\n\nProbably my favorite part in that article",
+                "Comment Author": "robotmayo"
+            },
+            {
+                "Comment Body": "I was following this case closely because I once implemented a piece of code that had the same signature as `java.lang.Math.min(int a , int b)`  and was worried it might not be fair use.",
+                "Comment Author": "greebleoverflowerror"
+            },
+            {
+                "Comment Body": "It's a huge victory (and one that was not so obvious) but this case is still not as significant as the fact that API's can be copyrighted, which is the law today.\n\nGoogle was able to dodge that bullet by winning on fair use grounds, but this is not universally applicable and it won't help the next company being sued for API copyright infringement.\n\nThe real battle is to overturn the ruling that API's can be copyrighted.\n",
+                "Comment Author": "abhrainn"
+            },
+            {
+                "Comment Body": "This is only a moderate victory for common sense. It shouldn't have got this far, as the API itself shouldn't have been copyrightable in the first place.",
+                "Comment Author": "None"
+            },
+            {
+                "Comment Body": "> Oracle wanted to sue for $9 billion\n\n> Accused Google of stealing 11,500 lines of code.\n\nThat's $782,608 per line. I should ask for a raise.",
+                "Comment Author": "ign1fy"
+            },
+            {
+                "Comment Body": "Thank God. Hopefully this sets up at least some sort of precedent for the future. It shouldn't have gotten this far, but it could be a lot worse. I'm thankful the legal system didn't fail us today.",
+                "Comment Author": "Mufro"
+            },
+            {
+                "Comment Body": "What scares me the most is how easily it could have gone the other way. This verdict was found by a jury with lacking computer and comp.sci-skills to put it mildly. Oracle kicked out all the computer people in the jury in the preselection.\n\nWhich makes me wonder.. did the jury reach their conclusion rightfully based on knowledge about the software development field and the merit of the arguments, or from a more shallow point of view as in which company they like the most? A broken clock is right twice a day as the saying goes.",
+                "Comment Author": "Madsy9"
+            },
+            {
+                "Comment Body": "Oracle can eat a fucking dick.",
+                "Comment Author": "None"
+            },
+            {
+                "Comment Body": "Does one more voice in a choir numbering in the millions even count?   \nWell, just in case it does: go fuck yourself Oracle, suck a planet made out of dicks.",
+                "Comment Author": "marriage_iguana"
+            },
+            {
+                "Comment Body": "So everyone, let's recap. Where it says this in a source file or header file, you get a lawsuit for using it:\n\n    * Copyright (c) 2002, 2010, Oracle and/or its affiliates. All rights reserved.\n\nHowever where it says this, and you have a shitload of money, you stand a good chance of winning the third time.\n\n    * This code is free software; you can redistribute it and/or modify it\n    * under the terms of the GNU General Public License version 2 only, as\n    * published by the Free Software Foundation.\n",
+                "Comment Author": "inmatarian"
+            },
+            {
+                "Comment Body": "Can someone explain the technicalities of the situation?  So Google took Java and reimplemented it.  Then Oracle who bought out Sun and thus owns its Java implementation thinks it has a copyright on Java and thus Google illegally used it?  By API are they talking about the language itself?\n\nEdit: ELI5",
+                "Comment Author": "KangstaG"
+            },
+            {
+                "Comment Body": "On a lighter note, AT&T's [copyright claim on empty source files](https://www.quora.com/What-is-the-dumbest-code-ever-made-that-has-become-famous/answer/Barry-Shein?srid=3Uuq&share=7e160477) is on shakier ground than ever.",
+                "Comment Author": "Techrocket9"
+            },
+            {
+                "Comment Body": "I'd like to thank Judge Alsup for the public service he has provided throughout the last 5 years. He has done an amazing job on the entire trial, and the one before it. He was went as far as learning Java to understand the entire case.\n\nIt's too bad it was all ruined by idiots in the appeals court, who probably know jack shit about programming...",
+                "Comment Author": "generalchangschicken"
+            },
+            {
+                "Comment Body": "So Oracle and Gawker got slapped in court in the same week? This is too good to be true. ",
+                "Comment Author": "HalfBurntToast"
+            },
+            {
+                "Comment Body": "I've been waiting to see this post. I've been dreading this post but with Oracle winning it.",
+                "Comment Author": "AndroidL"
+            },
+            {
+                "Comment Body": "As it should be. Oracle is a cancerous tumor. ",
+                "Comment Author": "eggbertx"
+            },
+            {
+                "Comment Body": "It's that easy? Sorry, SCO has led me to expect these kinds of lawsuit to drag out for a decade.\n\nBetter question, though: If I understand it correctly, this outcome implies that using a header file is Fair Use.\n\nWhat does this mean for restrictive copyleft licenses like the GPL, which (iirc) demands that software must be released under a compatible license for even linking to GPL software?\n\nA dynamically linked binary would contain at most header information from the library it links to. If that can be done under Fair Use without permission from the copyright holder, then are these license terms unenforceable?",
+                "Comment Author": "Arancaytar"
+            },
+            {
+                "Comment Body": "This is the best tl;dr I could make, [original](http://arstechnica.com/tech-policy/2016/05/google-wins-trial-against-oracle-as-jury-finds-android-is-fair-use/) reduced by 71%. (I'm a bot)\n*****\n> SAN FRANCISCO-Following a two-week trial, a jury has found that Google&#039;s Android operating system does not infringe Oracle-owned copyrights because its re-implementation of 37 Java APIs is protected by &quot;Fair use.\"\n\n> During the trial, Oracle argued that Google copied 11,500 lines of code, including parts of Java API packages as well as related declaring code, in order to take a &quot;Shortcut at Oracle&#039;s expense.&quot; As Android prospered, Oracle&#039;s Java licensing business, centered largely around feature-phones, cratered.\n\n> Oracle CEO Larry Ellison welcomed Android at first, but later he &quot;Changed his mind, after he had tried to use Java to build his own smartphone and failed to do it,&quot; Google attorney Robert Van Nest told the jury.\n\n\n*****\n[**Extended Summary**](http://np.reddit.com/r/autotldr/comments/4l78hu/google_wins_trial_against_oracle_as_jury_finds/) | [FAQ](http://np.reddit.com/r/autotldr/comments/31b9fm/faq_autotldr_bot/ \"Version 1.6, ~61248 tl;drs so far.\") | [Theory](http://np.reddit.com/r/autotldr/comments/31bfht/theory_autotldr_concept/) | [Feedback](http://np.reddit.com/message/compose?to=%23autotldr \"PMs and comment replies are read by the bot admin, constructive feedback is welcome.\") | *Top* *keywords*: **Google**^#1 **Oracle**^#2 **API**^#3 **Java**^#4 **trial**^#5",
+                "Comment Author": "autotldr"
+            },
+            {
+                "Comment Body": "I have always said it, and I will say it again - FUCK ORACLE. Their CRM is shit.",
+                "Comment Author": "brndng"
+            }
+        ]
+    },
+    {
+        "Title": "TIL there's a community called \"dwitter\" where people compose 140 character JavaScript programs that produce interesting visuals",
+        "ID": "7m8770",
+        "Author": "bemmu",
+        "Date": "2017-12-26 07:05:01",
+        "URL": "https://www.dwitter.net/top",
+        "Score": 20637,
+        "Body": "",
+        "HTML Title": {},
+        "Comments": [
+            {
+                "Comment Body": "Now that the server seems to be under control, let me high-jack my top comment to give you some tips:\n\n  - You can edit the code live! Try changing a few numbers\n  - Click the \"New Dweet\" button to get a less crazy starting point. It even has some comments!\n  - If you edit someone elses dweet, you can post it directly from their post; this tags it as a \"remix\" and is preferred over just copy-pasting into \"New Dweet\" as it preserves the link to the original.\n  - dwitter.net/random is a good way to see dweets of variable complexity\n  - and dwitter.net/new is where all the fresh redditor dweets have started to pop up :D \n\nAnd it's a ton of fun to see all the excitement :) Might have to get back to working on it.  (github.com/lionleaf/dwitter if you want to contribute)\n\n**Edit:** /u/xen_the posted a guide worth checking out if you're interested in making your first dweet! https://redd.it/7mgcd1 \n\n**Edit 2:** I've set up a discord for discussing all things dwitter: https://discord.gg/emHe6cP\n\n\n**Old post:**\n\nHi guys! Creator here, it seems you've crashed it. Currently working on getting it stabilized again.\n\nI'll come back here and post some of my favorites when I'm not in such a hurry ;)\n\nUpdate: I think we're good! Threw a bunch of hardware at it, which helped a bit at first, but then the extra caching added by my friend seems to be more than enough for the current load :D ",
+                "Comment Author": "lionleaf"
+            },
+            {
+                "Comment Body": "I think we crashed it.",
+                "Comment Author": "Thatmanwiththefedora"
+            },
+            {
+                "Comment Body": "Can anyone explain how you start making something like these?",
+                "Comment Author": "Foezjie"
+            },
+            {
+                "Comment Body": "Have they upped it to 280?",
+                "Comment Author": "lurking_digger"
+            },
+            {
+                "Comment Body": "Demoscene is back in JavaScript form. ",
+                "Comment Author": "None"
+            },
+            {
+                "Comment Body": "[this one though...](https://www.dwitter.net/d/739)",
+                "Comment Author": "None"
+            },
+            {
+                "Comment Body": "Beagle Bros, who wrote software for the Apple II back in the day, would have two-liner contests where people had to do something cool in two lines of AppleBasic. They would include them in their newsletters.\n\nThey were pretty amazing (and usually inscrutable) but one that stood out for me would simulate a train by revving the floppy drives back and forth faster and faster.\n\n",
+                "Comment Author": "Mr_Pickles_Esq"
+            },
+            {
+                "Comment Body": "[If you allow 1 kb](http://js1k.com/2014-dragons/demo/1951)",
+                "Comment Author": "AyrA_ch"
+            },
+            {
+                "Comment Body": "[deleted]",
+                "Comment Author": "None"
+            },
+            {
+                "Comment Body": "That's some magic they've got over there. Nice.",
+                "Comment Author": "wavy_lines"
+            },
+            {
+                "Comment Body": "r/loadingicon",
+                "Comment Author": "None"
+            },
+            {
+                "Comment Body": "/r/tinycode (and the subreddits in its sidebar)",
+                "Comment Author": "Nezteb"
+            },
+            {
+                "Comment Body": "Anyone here remember portal.hell.com?  (may have been portal.hell.net)\n\nIt was essentially a collection of really cool and innovative website designs back in the late 90's.  It was a major source of inspiration while I was in high school and people were making Geocities websites to share with their friends.\n\nAt the time, I was pretty adept at qBasic at the time and I learned SO much about web design from reverse engineering the code on some of those websites.",
+                "Comment Author": "Harbingerx81"
+            },
+            {
+                "Comment Body": "Is there anyway I can make sense of the 140 character code that is written? How can experiment, test and run these codes myself?",
+                "Comment Author": "None"
+            },
+            {
+                "Comment Body": "Thanks for the link, I now have a fun new way to waste my life.",
+                "Comment Author": "fkxfkx"
+            },
+            {
+                "Comment Body": "I wonder if experienced programmers can tell what an image will look like just by looking at the code.",
+                "Comment Author": "BreastUsername"
+            },
+            {
+                "Comment Body": "Sounds lame as fuck \n\nClicks ... THIS IS COOL AS FUCK",
+                "Comment Author": "mraheem"
+            },
+            {
+                "Comment Body": "and TIFU by introducing reddit to a community called \"dwitter\"",
+                "Comment Author": "bliths"
+            },
+            {
+                "Comment Body": "I wish I had the motivation to learn code, it's so cool and seems like modern magic. ",
+                "Comment Author": "terrified_traveler"
+            },
+            {
+                "Comment Body": "You should check out the demo scene. Search 64k Demos.",
+                "Comment Author": "SCphotog"
+            }
+        ]
+    },
+    {
+        "Title": "Eye tracking software for sufferers of ALS/MND can cost tens of thousands of dollars, so I've spent 3.5 years of my spare time writing a free & open-source alternative - meet OptiKey (C#, Rx, WPF) (x-post from r/Software)",
+        "ID": "3ke7ug",
+        "Author": "YeahIWroteOptiKey",
+        "Date": "2015-09-10 06:04:49",
+        "URL": "https://www.reddit.com/r/software/comments/3kdghp/eye_tracking_software_for_sufferers_of_alsmnd_can/?ref=share&ref_source=link",
+        "Score": 19787,
+        "Body": "",
+        "HTML Title": {},
+        "Comments": [
+            {
+                "Comment Body": "You are a good person. Inspiring shit.",
+                "Comment Author": "None"
+            },
+            {
+                "Comment Body": "I have a question. What was your inspiration for making this ?",
+                "Comment Author": "rya11111"
+            },
+            {
+                "Comment Body": "This should definitely be marketed hard towards health institutions. Someone with the right contacts could spread this like wildfire, especially in 3rd world countries where existing solutions don't have such a big foothold.\n\nEDIT: Have you thought about integrating it with web-cam only options like http://xlabsgaze.com/ ? (I just googled eye tracking with webcam, I have no affiliation to xlabsgaze)",
+                "Comment Author": "nailernforce"
+            },
+            {
+                "Comment Body": "Copying OP's description from /r/software for those curious about what this actually does:\n\n>OptiKey is an assistive on-screen keyboard which runs on Windows. It is designed to be used with a low cost (around $100) eye-tracking device to bring keyboard control, mouse control and speech to people with motor and speech limitations, such as people living with Amyotrophic Lateral Sclerosis (ALS) / Motor Neuron Disease (MND).\n\n>It works out of the box once you have your eye-tracking device installed and allows selections to be made using dwell selection, as well as physical buttons and assistive devices. If you do not have an eye tracking device you can use OptiKey with a mouse.\n\n>OptiKey was written to challenge the outrageously expensive, unreliable and difficult to use AAC (alternative and augmentative communication) products on the market. It is, therefore, fully open-source and free. Forever.\n\n>Video: https://youtu.be/HLkyORh7vKk\nWebsite: https://github.com/JuliusSweetland/OptiKey/wiki\n\n>I'd love to hear your feedback.\n\n>Julius",
+                "Comment Author": "nascentt"
+            },
+            {
+                "Comment Body": "lol at op's username",
+                "Comment Author": "freddy_schiller"
+            },
+            {
+                "Comment Body": "Wow! This could be huge. At first glance it looks to have an has enormous potential for disabled people. ",
+                "Comment Author": "larsaaberg"
+            },
+            {
+                "Comment Body": "What part of this problem took the longest?",
+                "Comment Author": "None"
+            },
+            {
+                "Comment Body": "My cousin is suffering from ALS, but I doubt he will be able to get access to expensive tech like that. How can he get something like OptiKey?",
+                "Comment Author": "zcleghern"
+            },
+            {
+                "Comment Body": "My dad has ALS. You're a fucking good person.\nI don't really have anything else to say.",
+                "Comment Author": "None"
+            },
+            {
+                "Comment Body": "Not just ALS, my uncle suffers from MS and he has been specifically looking for something like this...",
+                "Comment Author": "moeburn"
+            },
+            {
+                "Comment Body": "I think Jason Becker would love testing this",
+                "Comment Author": "Darjusz"
+            },
+            {
+                "Comment Body": "My stepfather died from ALS about twenty three years ago, back then it was a light talker, where spelling out a long sentence took many minutes; and he had to struggle to make himself understood. While we had fun attempting to make his light talker replicate fart noises, he still grew very frustrated. He can't thank you now for what you've done, but I can. Thank you.",
+                "Comment Author": "octopodesrex"
+            },
+            {
+                "Comment Body": "This is incredible. I'm a nurse who primarily takes care of ALS patients, and I am going to create my own cheap machine to bring with me to give my patients a voice. Thank you SO so much.",
+                "Comment Author": "thisguy30"
+            },
+            {
+                "Comment Body": "Is there any way this could run on non-Windows operating systems using mono or something like that?",
+                "Comment Author": "yawnz0r"
+            },
+            {
+                "Comment Body": "So... from a purely lazy point of view, would it be possible to control my HTPC with this? Eliminating the crappy bluetooth keyboard/controller?",
+                "Comment Author": "Zahz"
+            },
+            {
+                "Comment Body": "Thank you for your contribution to humanity.  People like you bring tears to my eyes because your selfless contribution will help many people for years to come.  Bravo.",
+                "Comment Author": "Fapulously"
+            },
+            {
+                "Comment Body": "I have a lot of respect for you. You have given part of yourself, so that others may benefit. I'll buy you a meal anytime.",
+                "Comment Author": "Hunter720"
+            },
+            {
+                "Comment Body": "Did you do a patent search and make sure your code is in the clear? If they are charging a lot for the commercial code, they are probably taking some steps to protect their position.",
+                "Comment Author": "Wetbung"
+            },
+            {
+                "Comment Body": "Doesn't OpenGazer already exist? What does this do that OpenGazer didn't?",
+                "Comment Author": "DevestatingAttack"
+            },
+            {
+                "Comment Body": "Have you considered using gestures instead of dwell?\n\nFor my original master thesis I was going to use eye gestures coupled with a backtracking to figure out where the user wants to execute a gesture.\n\nFor you, this would be even simpler since you already track the hit keys, no need to backtrack. You can probably increase the typing speed by having the user execute a gesture on screen. I would suggest by exiting one of the edges of the screen which then acts as enter for the tracked hit keys.\n\n\nYou might want to include this document for people who cannot afford the two trackers you suggested: http://www.mkowalik.pl/et/How%20to%20build%20low%20cost%20eyetracking%20glasses.pdf\n\nIt is very straight forward to build such a tracker. Combined with the ITUGazeTracker this should lead to a decent result. Let me know if you want me to contribute instructions.\n\n\nGreat job!\n",
+                "Comment Author": "frna"
+            }
+        ]
+    },
+    {
+        "Title": "Cool website that explains algorithms as if they are IKEA instruction manuals",
+        "ID": "8530uf",
+        "Author": "TheSpaceOfAdes",
+        "Date": "2018-03-17 03:49:14",
+        "URL": "https://idea-instructions.com/",
+        "Score": 19144,
+        "Body": "",
+        "HTML Title": {},
+        "Comments": [
+            {
+                "Comment Body": "I think the public key crypto one is actually more confusing than just reading the Wikipedia article.",
+                "Comment Author": "CJKay93"
+            },
+            {
+                "Comment Body": "Merge sort:\n\n1. Split values\n\n2. Order the values on each side\n\n3. Do some magic\n\n4. Everything is sorted yay! ",
+                "Comment Author": "XHF"
+            },
+            {
+                "Comment Body": "This is cool but I don't understand ikea directions or algorithms so this is pretty much the worse of both worlds for me. ",
+                "Comment Author": "None"
+            },
+            {
+                "Comment Body": "[deleted]",
+                "Comment Author": "None"
+            },
+            {
+                "Comment Body": "Good concept, poor execution ",
+                "Comment Author": "samredfern"
+            },
+            {
+                "Comment Body": "If they drew Dijkstra’s shortest path algorithm, they wouldn't even have to come up with a fake Ikea name for it. :)\n",
+                "Comment Author": "xampl9"
+            },
+            {
+                "Comment Body": "As a Swede the å, ä and ö everywhere is *really* annoying.",
+                "Comment Author": "nighoblivion"
+            },
+            {
+                "Comment Body": "As a slide in a lecture they look great.. not so good for self learning....",
+                "Comment Author": "AdrianJMartin"
+            },
+            {
+                "Comment Body": "I understand IKEA instructions and i have a decent understanding of all of these algorithms. But most of these illustrations are very confusing. Even if they're meant for lectures and people who already know some stuff about it, i don't think they're very helpful.\n\nCool idea though. But i guess a lot of a bit more complex algorithms can't really be explained in a decent way without using some words.",
+                "Comment Author": "None"
+            },
+            {
+                "Comment Body": "This is cool, but not good.",
+                "Comment Author": "atmosfearing"
+            },
+            {
+                "Comment Body": "Seems hungarians have a thing to make cool algorithms visualisations. Remember those folk dances videos?\nhttps://youtu.be/ywWBy6J5gz8",
+                "Comment Author": "exisisting"
+            },
+            {
+                "Comment Body": "To be honest those illustrations make sense only if you're already familiar with the algorithms they depict. In no way can they be deemed \"explanatory\".",
+                "Comment Author": "zahlon"
+            },
+            {
+                "Comment Body": "This helped me understand nothing.",
+                "Comment Author": "VelvetRevolver_"
+            },
+            {
+                "Comment Body": "This was worthless.",
+                "Comment Author": "Dalroc"
+            },
+            {
+                "Comment Body": "Hey, my professor made these! Very surprising to see :)",
+                "Comment Author": "Uglynator"
+            },
+            {
+                "Comment Body": "Idea is amazing. I love it. Some algorithms hard to understand but generally it is very instructive",
+                "Comment Author": "kaysersozzee"
+            },
+            {
+                "Comment Body": "500 internal server error at the moment ",
+                "Comment Author": "None"
+            },
+            {
+                "Comment Body": "In the ONE STROKE DRAW manual, the crossed out graphs (which are implied to not have Eulerian paths), both have Eulerian paths. ",
+                "Comment Author": "mongol_professional"
+            },
+            {
+                "Comment Body": "Honestly, those are pretty confusing, even for the concepts I understand. ",
+                "Comment Author": "None"
+            },
+            {
+                "Comment Body": "Just to piggy back on this, does anyone know of any good books or resources for a gentle total beginner intro to algorithms?",
+                "Comment Author": "MrRiskAdverse"
+            }
+        ]
+    },
+    {
+        "Title": "How I cut GTA Online loading times by 70%",
+        "ID": "luq9oz",
+        "Author": "simspelaaja",
+        "Date": "2021-02-28 12:57:20",
+        "URL": "https://nee.lv/2021/02/28/How-I-cut-GTA-Online-loading-times-by-70/",
+        "Score": 18976,
+        "Body": "",
+        "HTML Title": {},
+        "Comments": [
+            {
+                "Comment Body": "this implementation, if it works, translates to money for GTA:O. I was so offput by online load times (and getting randomly kicked all the time) on my computer that I lost interest and played Watchdogs online instead",
+                "Comment Author": "Maakus"
+            },
+            {
+                "Comment Body": "This article was really insightful! I've always wondered what was going on in the code while waiting eons for GTAO to load.\n\nThis is super embarrassing for Rockstar. This has been a well-known issue since GTAO was released, and it turns out to be something so simple.  \n\nI wonder how many millions of dollars Rockstar has missed out on from users being frustrated with long load times and closing the game. Meanwhile, some random guy with no access to the source code was able to solve this problem with about 100 lines of code",
+                "Comment Author": "deruke"
+            },
+            {
+                "Comment Body": "I respect him just for giving that much of a shit",
+                "Comment Author": "p1um5mu991er"
+            },
+            {
+                "Comment Body": "Hashtable with O(n) insert time? Now I've seen everything...",
+                "Comment Author": "Jimmy48Johnson"
+            },
+            {
+                "Comment Body": "Considering the mammoth amount of hard programming problems that were solved to make this game I'm really shocked that something this easy to fix made it through.",
+                "Comment Author": "UsuallyMooACow"
+            },
+            {
+                "Comment Body": "[removed]",
+                "Comment Author": "None"
+            },
+            {
+                "Comment Body": "(I'm not the author; that's just the title of the article.)",
+                "Comment Author": "simspelaaja"
+            },
+            {
+                "Comment Body": "I don't think I could put up with even 1m50s of load time.\n\nGreat job cutting out over 3m though.",
+                "Comment Author": "happyscrappy"
+            },
+            {
+                "Comment Body": "That was a cool article.",
+                "Comment Author": "raymondQADev"
+            },
+            {
+                "Comment Body": "Wow, this is amazing. We should tweet R* to push them to fix this bug!",
+                "Comment Author": "masterofmisc"
+            },
+            {
+                "Comment Body": "Claps to the author!!",
+                "Comment Author": "FrAxl93"
+            },
+            {
+                "Comment Body": "Note I doubt very much this comes down to engineer talent, I’m sure there are engineers yelling I’d mostly guess this is two things.\n\n1. They are probably using some kind of off the shelf JSON parser.  The offending stuff is probably deep in some black box dll.   And I would be very surprised if R* doesn’t know the json parsing is causing that. They’ve probably suggested switching it, but gotten the Kibosh due to the inherent risk there.\n\n2. Management just doesn’t want to prioritize that.",
+                "Comment Author": "chargeorge"
+            },
+            {
+                "Comment Body": "This is insane. My company dedicates a significant amount of profiling and measurement to startup, where even adding a few milliseconds to startup time gets flagged as something to eliminate if at all possible. That Rockstar never considered similar profiling and protection for their startup times is beyond belief.",
+                "Comment Author": "EntropySpark"
+            },
+            {
+                "Comment Body": "Very well written article. I used to write Game trainers a long time ago, doing a bit of reverse engineering(much lighter that what you can read in the article - the games were also less complex back then). This reading sparked my curiosity, and I sort of want to dig a bit into the software that was mentioned there.",
+                "Comment Author": "Paulmorar"
+            },
+            {
+                "Comment Body": "When R\\* reads this, they're all going to know exactly who wrote that terrible parser. You're fired, Sean.",
+                "Comment Author": "mattkenefick"
+            },
+            {
+                "Comment Body": "The performance problem with sscanf O(N\\^2) in glibc has been known since at least 2014 (see bug 17577). Ironically, if they'd used fscanf (reading from a file instead of loading it into memory first) the problem wouldn't exist. [https://sourceware.org/bugzilla/show\\_bug.cgi?id=17577](https://sourceware.org/bugzilla/show_bug.cgi?id=17577)",
+                "Comment Author": "mrmichaelrb"
+            },
+            {
+                "Comment Body": "Man I wish I understood code this well",
+                "Comment Author": "Beastlykings"
+            },
+            {
+                "Comment Body": "I wonder how much energy has been wasted in the last 7 years. Maybe not Bitcoin level but certainly quite a bit.",
+                "Comment Author": "anything_but"
+            },
+            {
+                "Comment Body": "I'm a bit confused, why is sscanf and strlen so bad?",
+                "Comment Author": "whitelife123"
+            },
+            {
+                "Comment Body": "Wow, this is brilliant. Well done. I hope Rockstar listens.",
+                "Comment Author": "Tarsupin"
+            }
+        ]
+    },
+    {
+        "Title": "Linus Torvalds: I think somebody inside of Intel needs to really take a long hard look at their CPU's, and actually admit that they have issues instead of writing PR blurbs that say that everything works as designed.",
+        "ID": "7o203z",
+        "Author": "None",
+        "Date": "2018-01-04 01:52:35",
+        "URL": "https://lkml.org/lkml/2018/1/3/797",
+        "Score": 18221,
+        "Body": "",
+        "HTML Title": {},
+        "Comments": [
+            {
+                "Comment Body": "Here is the Intel press release he is referencing: https://newsroom.intel.com/news/intel-responds-to-security-research-findings/",
+                "Comment Author": "None"
+            },
+            {
+                "Comment Body": "Well they did work as designed.\n\nTheir design was just bad.",
+                "Comment Author": "ArrogantlyChemical"
+            },
+            {
+                "Comment Body": "As bad as these attacks are, let's remember that most RAM vendors haven't fixed ROWHAMMER after all these years. The state of computer security is very poor.\n\nRunning untrusted code on your computer is unwise. That includes javascript.",
+                "Comment Author": "JavierTheNormal"
+            },
+            {
+                "Comment Body": "So when do we get our $25 coupon towards the purchase of a new Intel processor from the resulting lawsuit? /s",
+                "Comment Author": "whyUsayDat"
+            },
+            {
+                "Comment Body": "[deleted]",
+                "Comment Author": "None"
+            },
+            {
+                "Comment Body": "In a litigious world where to admit a mistake of this magnitude would cost them *a lot* in lawsuits. Is anyone surprised they won't admit it?",
+                "Comment Author": "Jestar342"
+            },
+            {
+                "Comment Body": "https://github.com/torvalds/linux/commit/00a5ae218d57741088068799b810416ac249a9ce#diff-678874d00bf0df04f6f427f16f1dea36R926\n\nCode regarding the Intel CPU flaw is not run on AMD chips.",
+                "Comment Author": "nutidizen"
+            },
+            {
+                "Comment Body": "Maybe I should take a page from Intel's book. I really like the idea of getting a bug report and being like \"no, that code runs exactly the way we wrote it.\"",
+                "Comment Author": "JessieArr"
+            },
+            {
+                "Comment Body": "Isn't the problem that everything works as designed, but it is designed as crap?",
+                "Comment Author": "LucaProdan_"
+            },
+            {
+                "Comment Body": "I still dont understand how could js code exploit these vulnerabilities",
+                "Comment Author": "JackTheSqueaker"
+            },
+            {
+                "Comment Body": "\"Intel believes these exploits do not have the potential to corrupt, modify or delete data.\"\n\nClever. Leaving out steal or read. ",
+                "Comment Author": "notvirus_exe"
+            },
+            {
+                "Comment Body": "Must be kind of painful to have all this memory protection infrastructure on your chip, only to find out that it has been completely worthless.\n\nI wonder whether there is anything in the Intel architecture documentation specifying that user-space really cannot access kernel space memory. (Leaking enough information to reconstruct kernel space memory is equivalent of course. )\n\nI.e., the manual does state that direct accesses are forbidden, but whether they guarantee anything beyond that?",
+                "Comment Author": "exorxor"
+            },
+            {
+                "Comment Body": "The press release says they do not believe the flaws allow hackers to delete or manipulate data, but recent news reports never said the flaws allowed that ... the N.Y. Times says it allows for hackers to potentially copy/steal the entire memory contents of your computer/mobile phone. ",
+                "Comment Author": "theDAGNUT"
+            },
+            {
+                "Comment Body": "Obviously there has to be some rethink. Until now it was considered to be okay to allow knock-on effects of data you fetched (without permission) to affect the behavior of your program as long as you couldn't directly read the data.\n\nYes, in retrospect it is clearly foolish.\n\nBut I don't see how that jibes with what Linus is saying. The entire industry thought this was okay. It isn't the kind of thing where you can just say you didn't work hard enough, it required a different mindset. And now of course with this new perspective CPU architectures will be done differently.",
+                "Comment Author": "happyscrappy"
+            },
+            {
+                "Comment Body": "I agree Intel needs to fix their processors but isn't this an universal issue? The [Meltdown paper](https://meltdownattack.com/meltdown.pdf) mentions, in section 6.4, that for ARM and AMD \"out-of-order execution generally occurs and instructions past illegal memory accesses are also performed\". And [Spectre](https://spectreattack.com/spectre.pdf) also works on ARM and AMD architecture.\n\nEdit: As several people have pointed out, the current variant of Meltdown doesn't work on AMD. [This patch](https://git.kernel.org/pub/scm/linux/kernel/git/tip/tip.git/commit/?id=694d99d40972f12e59a3696effee8a376b79d7c8) confirms this.",
+                "Comment Author": "light_cycle5"
+            },
+            {
+                "Comment Body": "I'd just like to interject for a moment. Who you’re referring to as Linus, is in fact, GNU/Linus, or as I’ve recently taken to calling him, GNU plus Linus.",
+                "Comment Author": "HillaryDianeRodham"
+            },
+            {
+                "Comment Body": "Good lord these fucking comments and armchair CPU designers.  Lol, reddit never fails to entertain at least.",
+                "Comment Author": "smakusdod"
+            },
+            {
+                "Comment Body": "Aaaaaaaaaand my next PC will by a ryzen",
+                "Comment Author": "PaulPhoenixMain"
+            },
+            {
+                "Comment Body": "FUCKWIT. ",
+                "Comment Author": "c2r5"
+            },
+            {
+                "Comment Body": "I think Intel knows they have problems, why else would the ceo dump company stock?",
+                "Comment Author": "None"
+            }
+        ]
+    },
+    {
+        "Title": "Inventor says Google is patenting work he put in the public domain",
+        "ID": "8q3kp8",
+        "Author": "Balance-",
+        "Date": "2018-06-10 13:23:17",
+        "URL": "https://arstechnica.com/tech-policy/2018/06/inventor-says-google-is-patenting-work-he-put-in-the-public-domain/",
+        "Score": 18039,
+        "Body": "",
+        "HTML Title": {},
+        "Comments": [
+            {
+                "Comment Body": "The stupid thing about how software patents work is that if you don't apply for it, anybody else could try to do so later and if they succeed (which is always a chance since patent officers often have no idea what the fuck they're doing), they can fuck you over with it. I could imagine that Google just decided to try as hard as possible to patent whatever the fuck they can about this important new technology... if they fail, they at least made (relatively) certain that nobody else can later do it either.\n\nThe best option for the inventor would've probably been to patent it himself and grant the world an irrevokable royalty-free license, rather than not patenting it at all. Patents are not free, unfortunately, but it seems that he cares enough about this that he might have been willing to put out the money. With the way this stupid system works, the only way you can make sure that nobody else takes it is to claim it for yourself.",
+                "Comment Author": "darkslide3000"
+            },
+            {
+                "Comment Body": "When I first started programming, Google was all about open source and Microsoft was all closed and proprietary. Now, it’s the opposite. \n\nI don’t think this new strategy Google is putting in place is going to end well.",
+                "Comment Author": "GoBenB"
+            },
+            {
+                "Comment Body": "I don't like the concept of a patent in software in general. \nIt feels for me like you want to patent a book story... ",
+                "Comment Author": "tom-010"
+            },
+            {
+                "Comment Body": "This is the best tl;dr I could make, [original](https://arstechnica.com/tech-policy/2018/06/inventor-says-google-is-patenting-work-he-put-in-the-public-domain/) reduced by 93%. (I'm a bot)\n*****\n> A Google spokesperson told Ars that Duda came up with a theoretical concept that isn&#039;t directly patentable, while Google&#039;s lawyers are seeking to patent a specific application of that theory that reflects additional work by Google&#039;s engineers.\n\n> Over the last couple of months, we&#039;ve repeatedly asked Google to put us in touch with a Google technology expert who can explain exactly what Google invented and how it goes beyond Duda&#039;s own work.\n\n> Google never made someone like that available to us, so we can&#039;t explain how Google distinguishes its own invention from Duda&#039;s original work.\n\n\n*****\n[**Extended Summary**](http://np.reddit.com/r/autotldr/comments/8q3uqb/inventor_says_google_is_patenting_work_he_put_in/) | [FAQ](http://np.reddit.com/r/autotldr/comments/31b9fm/faq_autotldr_bot/ \"Version 2.02, ~326483 tl;drs so far.\") | [Feedback](http://np.reddit.com/message/compose?to=%23autotldr \"PM's and comments are monitored, constructive feedback is welcome.\") | *Top* *keywords*: **Google**^#1 **symbol**^#2 **patent**^#3 **represent**^#4 **Duda**^#5",
+                "Comment Author": "autotldr"
+            },
+            {
+                "Comment Body": "[deleted]",
+                "Comment Author": "None"
+            },
+            {
+                "Comment Body": "It's like real life Silicon Valley, Hooli is trying to patent middle out compression",
+                "Comment Author": "alacert"
+            },
+            {
+                "Comment Body": "Patenting software doesn't make sense. Copyrighting it, however, does.\n\nAnyway, this just goes to show how much patents prove a *lack of novelty.*",
+                "Comment Author": "qntmpkts"
+            },
+            {
+                "Comment Body": "America: Freedom to get fucked by somebody with more money than you.",
+                "Comment Author": "CarsTrucksBuses"
+            },
+            {
+                "Comment Body": "I find it interesting that the \"inventor\" on the patent is Alex Converse, who also works on VLC and FFmpeg.",
+                "Comment Author": "ompomp"
+            },
+            {
+                "Comment Body": "This is why having a license on your shit is so important. \n\nBecause if someone steals your shit, suddenly, they have to fight a case why they eirther have to remove your code immediatelly, or their product becomes free. ",
+                "Comment Author": "Meistermalkav"
+            },
+            {
+                "Comment Body": "Everyone take a breath and read the article. Google have recognized that Duda invented the theoretical foundations of ANS. What they are patenting is a specific implementation, which is exactly what parents are for. \n\nDuda claims that he suggested this implementation to Google engineers via email. *That* is the crux of the dispute, meaning this isn't a broader question about software patents.\n\nOn the topic though, software patents are the nukes of the software world. No one particularly likes them, but they have to maintain an arsenal of them for deterrence reasons. This disincentives large firms from suing one another non-stop, since it would carry a near-certain counter-suit. If you don't like software patents, you can go yell at the USPTO. Google, Facebook, Apple, et al. are acting rationally within the system that exists by trying to patent everything they can. ",
+                "Comment Author": "manuscelerdei"
+            },
+            {
+                "Comment Body": "Xiph has another perspective on this, see this: [https://xiphmont.dreamwidth.org/84214.html](https://xiphmont.dreamwidth.org/84214.html), which links to another Reddit thread: [https://www.reddit.com/r/programming/comments/6h08z5/google\\_is\\_currently\\_trying\\_to\\_patent\\_video/](https://www.reddit.com/r/programming/comments/6h08z5/google_is_currently_trying_to_patent_video/)\n\nSo, I think we need to hold our horses on this one",
+                "Comment Author": "FierceDeity_"
+            },
+            {
+                "Comment Body": "He's still fighting them!? I used ANS in my game's netcode 3 years ago. How does Google patent something I used 3 years ago?",
+                "Comment Author": "deftware"
+            },
+            {
+                "Comment Body": "HN discussion : https://news.ycombinator.com/item?id=17277830",
+                "Comment Author": "xtreak"
+            },
+            {
+                "Comment Body": "Fucking patents.",
+                "Comment Author": "Siftingtheworld"
+            },
+            {
+                "Comment Body": "[deleted]",
+                "Comment Author": "None"
+            },
+            {
+                "Comment Body": "This is exactly why you want a patent; to keep control of your inventions. What you do with the patent is up to you.",
+                "Comment Author": "robot_wrangler"
+            },
+            {
+                "Comment Body": "Kind of like companies that try to patent genes eg Myriad Genetics patenting the BRCA gene  - aside from the issue of wether nature should be ‘owned’ like this, there is the fact that the University of Utah had actually isolated the gene, not Myriad - they had only licensed it from the university.  ",
+                "Comment Author": "skoodle_um"
+            },
+            {
+                "Comment Body": "Patents are nothing more than the states way to sell market control.",
+                "Comment Author": "itwontdie"
+            },
+            {
+                "Comment Body": "Woah, I kinda get where Richard Stallman is coming from now. This is fucked",
+                "Comment Author": "Qkb"
+            }
+        ]
+    }
+]

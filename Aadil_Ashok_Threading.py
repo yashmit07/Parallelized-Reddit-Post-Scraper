@@ -10,8 +10,9 @@ import re
 import requests
 from bs4 import BeautifulSoup
 import threading
+import bisect
 
-#Using "threading" library to parallelize the scraper
+
 
 def sorting_through_posts(crawled_posts,subreddit_top_posts, i, j):
     while(i <= j):
@@ -51,8 +52,9 @@ def sorting_through_posts(crawled_posts,subreddit_top_posts, i, j):
                 'Comment Author': str(comment.author)
             })
         postJSON['Comments'] = crawled_comments
-        crawled_posts.append(postJSON)
+        bisect.insort(crawled_posts, postJSON, key=lambda x: -x["Score"])
         i = i + 1
+    end_func = time.time()
 
 
 #To run the program do: python scraper.py <Subreddit Name> <# of top posts>
@@ -107,16 +109,19 @@ for post in subreddit_top_posts_temp:
 #dictionary to store post data for now
 crawled_posts = []
 
+crawled_posts = []
 threads = os.cpu_count() #4
 chunks = int(args.topLim[0]) // threads
 if(chunks == 0):
     chunks = 1
-  #i = 0, j = 1
+#i = 0, j = 1
 i = 0
 j = (i + chunks) - 1
 if(j < i):
     j = i
 thread_array = []
+start_program_time = time.time()
+
 #The main for loop that collects all the data from all of the top posts and stores it into crawled_posts
 for index in range(threads):
     post_data = threading.Thread(target=sorting_through_posts,args=(crawled_posts,subreddit_top_posts, i, j))
@@ -133,9 +138,11 @@ for post_data in thread_array:
     post_data.join()
 if(int(args.topLim[0]) % threads != 0):
     sorting_through_posts(crawled_posts,subreddit_top_posts,i,len(subreddit_top_posts) - 1)
-    
+
+end_program_time = time.time()
+print("Time for post iterations: ", end_program_time - start_program_time)
 #dump all data into a json file called '<subreddit>_posts.json'
-output_file = args.subreddit[0] + '_postsAadilAshok.json'
+output_file = args.subreddit[0] + '_posts2.json'
 with open(output_file, 'w', encoding='utf-8') as f:
     json.dump(crawled_posts, f, indent=4, ensure_ascii=False)
 
