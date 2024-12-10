@@ -135,7 +135,7 @@ if(int(args.topLim[0]) % threads != 0):
     sorting_through_posts(crawled_posts,subreddit_top_posts,i,len(subreddit_top_posts) - 1)
     
 #dump all data into a json file called '<subreddit>_posts.json'
-output_file = args.subreddit[0] + '_posts2.json'
+output_file = args.subreddit[0] + '_postsAadilAshok.json'
 with open(output_file, 'w', encoding='utf-8') as f:
     json.dump(crawled_posts, f, indent=4, ensure_ascii=False)
 

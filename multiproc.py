@@ -8,6 +8,7 @@ import validators
 import re
 import requests
 from bs4 import BeautifulSoup
+from multiprocessing import Pool
 
 #To run the program do: python scraper.py <Subreddit Name> <# of top posts>
 #example: python scraper.py Programming 100
@@ -103,9 +104,10 @@ if __name__ == "__main__":
 
     #Praw gets the number of top posts in our chosen subreddit based of the argument from execution
     subreddit_top_posts = subreddit.top(limit=args.topLim[0]) 
-    
-    crawledPosts = parsePosts(subreddit_top_posts)
+    posts = list(subreddit_top_posts)
 
+    crawledPosts = parsePosts(posts)
+    
     #dump all data into a json file called '<subreddit>_posts.json'
     output_file = args.subreddit[0] + '_posts.json'
     with open(output_file, 'w', encoding='utf-8') as f:
