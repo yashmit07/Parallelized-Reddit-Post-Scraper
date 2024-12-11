@@ -4,7 +4,6 @@ import json
 import datetime
 import time
 import argparse
-import validators
 import re
 import requests
 from bs4 import BeautifulSoup
