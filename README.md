@@ -57,21 +57,25 @@ Our experiments were conducted with the following parameters:
 
 Below are the graphs comparing the performance metrics of our three implementations:
 
-#### Execution Time Comparison
-![Execution Time Comparison](images/execution_time_comparison.png)
-*Figure 1: Average execution time comparison across different approaches. Lower is better.*
+#### Ray Implementation Performance
+![Ray Speedup Graph](speedUpGraph.png)
+*Figure 1: Performance analysis of Ray implementation showing execution time and speedup metrics.*
 
-#### CPU Utilization Over Time
-![CPU Utilization](images/cpu_utilization.png)
-*Figure 2: CPU utilization patterns during execution. Ray and Multiprocessing show higher but more consistent CPU usage.*
+#### Multiprocessing Performance Analysis
+![Multiprocessing Speed Graph](Eric_Yashmit_MultiProcessing_Speed_Graph.png)
+*Figure 2: Speed comparison for multiprocessing implementation across different workloads.*
 
-#### Memory Usage Comparison
-![Memory Usage](images/memory_usage.png)
-*Figure 3: Memory footprint comparison. Threading shows the lowest memory usage while Ray maintains a balanced profile.*
+![Multiprocessing Speedup Graph](Eric_Yashmit_MultiProcessing_Speedup_Graph.png)
+*Figure 3: Speedup achieved with multiprocessing compared to sequential execution.*
 
-#### Scalability Test Results
-![Scalability Test](images/scalability_test.png)
-*Figure 4: Performance scaling with increasing number of subreddits. Ray shows the best scaling characteristics.*
+#### Threading Implementation Results
+![Threading Speedup Graph](AadilAshokSpeedupGraph.png)
+*Figure 4: Performance analysis of threading implementation showing the achieved speedup.*
+
+These graphs demonstrate the relative performance characteristics of each approach:
+- Ray shows the best overall speedup and scaling capabilities
+- Multiprocessing demonstrates strong performance for CPU-intensive tasks
+- Threading provides efficient handling of I/O-bound operations with minimal overhead
 
 ### Key Findings
 
